@@ -23,8 +23,8 @@ description
     FsUnit is a set of extensions that add special testing syntax to xUnit 2.
 dependencies
     xunit 2.1.0
-    FSharp.Core >= 3.1.2.5
 files
+	../../bin/FsUnit.Xunit/FSharp.Core.* ==> lib/net45
 	../../bin/FsUnit.Xunit/FsUnit.* ==> lib/net45
 	../../bin/FsUnit.Xunit/NHamcrest.* ==> lib/net45
 	../../src/install.ps1 ==> tools
